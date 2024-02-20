@@ -1,0 +1,86 @@
+section{
+    background-color: #DEF0EE;
+}
+.bienvenida{
+    text-align: center;
+    color: #025959;
+    font-weight: bold;
+    font-family: "Anta", sans-serif;
+    font-size: 2.2rem;
+    margin: 1.8%;
+}
+.boton-empezar{
+    background-color: #025959;
+    margin: 4%;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 1.5rem;
+    margin-left: 50px;
+}
+.alerta-estado{
+    font-family: "Fjalla One", sans-serif;
+    text-align: center;
+    font-size: 2.0rem;
+
+}
+.carta{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;   
+    width: 162px;
+    height: 162px;
+    background-color: #9ED6D7;
+}
+.todas-cartas{
+    margin-left: 31%
+}
+.icon-pregunta{
+    font-size: 6rem;
+    margin-top: 200px;
+}
+
+.carta:hover {
+    background-color:#D1645D;
+}
+.tiempo{
+    font-size: 2rem;
+    margin-top: 10px;
+    font-family:  "Protest Revolution", sans-serif;;
+}
+.oculto{
+    display: none;
+}
+.pokemon{
+    margin-left: 1%;
+    margin-top: 3%;
+    width: 142px;
+    height: 142px;
+}
+.oculto{
+    display: none;
+}
+@media  screen and (max-width:800px) {
+    .boton-empezar{
+        margin-left: 0px;
+    }
+    .tiempo{
+        font-size: 1.2rem;
+    }
+    .todas-cartas{
+        padding-bottom: 10%;
+        padding-top: 10%;
+        margin-left: 0%;
+    }
+    .carta{
+        width: 80px;
+        height: 80px;
+    }
+    .icon-pregunta{
+        font-size: 3.5rem;
+    }
+    .pokemon{
+        height: 70px;
+        width: 70px;
+        margin-top: 4%;
+    }
+}
