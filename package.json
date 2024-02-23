@@ -4,12 +4,18 @@
   "description": "Programa enfocado en la memoria",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "empezar": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-dev": "cypress open",
+    "cypress-run":"cypress run"
   },
   "author": "Sebastian Tejeda",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.5"
   }
 }
